@@ -2,6 +2,26 @@ img 1
 At place of condition it is written only i
 N at place of updation it is
 i>>=1
+Ans-> If you break i>>=1 ,you have i....>>==...1
+      Here you get >>== as the bitwise operator and 1 as the operand.
+      '>>='This is a bitwise right shift assignment operator.
+      Just like  "i+=3" -> does i=i+3----->"i>>=3" does i=i>>1.
+      In this case, as the code is given as i>>=1;  i is divide by 2 in every iteratin of the loop.
+      Therefore-The loop is executed 11 times, after which the value of i becomes 0,and the condition in for is not satisfied. 
+     Loop no.     i                  
+     1        1024
+     2        512
+     3        256
+     4        128
+     5        64
+     6        32
+     7        16
+     8        8
+     9        4
+    10        2
+    11        1
+    Refer to this link for Bitwise Operator -https://www.quora.com/What-are-the-applications-of-bitwise-operators-right-shift-and-left-shift
+    Answer by ~Aryaman(WickedBaBa)
 
 img 2
 Also i didn't got this
